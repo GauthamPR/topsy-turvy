@@ -9,10 +9,13 @@ li{
 }
 
 #nav-bar ul{
-    padding: 0;
-
+    padding: 0px 5px;
+    text-transform: uppercase;
     display: flex;
     justify-content: space-between;
+}
+.nav-links{
+    padding: 0px 7px;
 }
 #first-image{
     width: 100%;
