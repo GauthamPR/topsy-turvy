@@ -6,9 +6,6 @@ body{
     font-weight: 600;
     font-size: 14px;
 }
-#welcome{
-    height: 100vh;
-}
 #author{
     font-size: 24px;
     font-weight: 400;
@@ -17,21 +14,26 @@ li{
     list-style: none;
 }
 #nav-bar{
-    padding: 5px 15px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 #nav-bar ul{
-    padding: 0px 5px;
+    padding: 0;
+    padding-right: 10px;
     text-transform: uppercase;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+#nav-bar ul li{
+    padding: 5px 12px;
+}
 .nav-links{
-    padding: 0px 7px;
     color: #ffffff94;
 }
 #first-image{
-    height: 100%;
     width: 100%;
     top: 0;
     z-index: -1;
@@ -58,6 +60,7 @@ li{
 #welcome-content-description{
     font-size: 18px;
     font-weight: 500;
+    color: #ffffffc7;
 }
 #welcome-content-button{
     margin-top: 20px;
