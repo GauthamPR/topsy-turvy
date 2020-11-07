@@ -83,7 +83,7 @@ li{
     border-bottom: 5px solid #282626;
 }
 #about-title-container{
-    margin: 50px 0px;
+    margin: 50px 25px;
 
     text-align: center;
 }
@@ -99,7 +99,8 @@ li{
 #card-holder{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 50px;
+    margin-top: 100px;
 }
 .card h1{
     font-size: 24px;
@@ -168,16 +169,23 @@ li{
 }
 #portfolio{
     text-align: center;
+    display: grid;
+    justify-items: center;
+}
+#portfolio-title-container{
+    width: 600px;
+    text-align: center;
 }
 #portfolio-image-holder{
     margin: 50px 200px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     row-gap: 10px;
     column-gap: 10px;
 }
 #portfolio-image-holder img{
     width: 100%;
+    height: 100%;
 }
 #contact h1{
     text-align: center;
@@ -213,4 +221,29 @@ footer{
 #footer-icons{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.ico-check-circle{
+    background: url("Icons/check.svg");
+    height: 22px;
+    width: 25px;
+    display: inline-block;
+}
+.ico-tacho{
+    background: url("Icons/tachometer.svg");
+    height: 22px;
+    width: 29px;
+    display: inline-block;
+}
+.ico-heart-beat{
+    background: url("Icons/heartbeat.svg");
+    height: 22px;
+    width: 25px;
+    display: inline-block;
+}
+.ico-heart{
+    background: url("Icons/heart.svg");
+    height: 22px;
+    width: 25px;
+    display: inline-block;
 }
