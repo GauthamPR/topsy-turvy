@@ -249,20 +249,28 @@ li{
     background-color: #353a40;
 }
 footer{
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 100px;
+    margin-right: 20px;
+    display: flex;
+    padding: 30px 140px;
+    justify-content: space-between;
 }
 #footer-services{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
 }
 .footer-description{
     font-weight: 400;
 }
 #footer-icons{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+}
+#footer-icons li{
+    margin: 3px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 30px;
 }
 
 .ico-check-circle{
