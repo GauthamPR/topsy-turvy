@@ -290,31 +290,31 @@ footer h1{
     text-align: right;
 }
 .ico-check-circle{
-    background: url("Icons/check.svg");
+    background: url("Assets/Icons/check.svg");
     height: 22px;
     width: 25px;
     display: inline-block;
 }
 .ico-tacho{
-    background: url("Icons/tachometer.svg");
+    background: url("Assets/Icons/tachometer.svg");
     height: 22px;
     width: 29px;
     display: inline-block;
 }
 .ico-heart-beat{
-    background: url("Icons/heartbeat.svg");
+    background: url("Assets/Icons/heartbeat.svg");
     height: 22px;
     width: 25px;
     display: inline-block;
 }
 .ico-heart{
-    background: url("Icons/heart.svg");
+    background: url("Assets/Icons/heart.svg");
     height: 22px;
     width: 25px;
     display: inline-block;
 }
 .ico-instagram{
-    background: url("Icons/instagram.svg");
+    background: url("Assets/Icons/instagram.svg");
     height: 22px;
     width: 25px;
     display: inline-block;
