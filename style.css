@@ -170,6 +170,7 @@ li{
 }
 .feedback-card h1{
     margin: 0;
+    font-family: "Arial";
 }
 .feedback-card span{
     width: 90%;
@@ -225,6 +226,9 @@ li{
     width: 400px;
     padding: 40px;
 }
+#contact-vis-holder div{
+    font-size: 16px;
+}
 #contact-container form{
     margin-top: 40px;
     display: grid;
@@ -233,7 +237,8 @@ li{
 }
 #contact-container form input{
     font-size: 16px;
-    letter-spacing: 0.1em;
+    font-family: inherit;
+    font-weight: 300;
     background-color: transparent;
     color: #ffffff7a;
     border-style: none;
@@ -242,7 +247,7 @@ li{
 }
 #contact-container form button{
     margin-top: 10px;
-    padding: 10px;
+    padding: 15px;
     width: 200px;
     border-radius: 30px;
     font-family: inherit;
@@ -253,10 +258,10 @@ li{
 }
 footer{
     margin-top: 100px;
-    margin-right: 20px;
     display: flex;
-    padding: 30px 140px;
+    padding: 30px 130px;
     justify-content: space-between;
+    align-items: center;
 }
 footer h1{
     margin: 0;
@@ -269,9 +274,11 @@ footer h1{
     row-gap: 10px;
 }
 .footer-description{
-    font-weight: 400;
+    font-weight: 600;
     display: grid;
     row-gap: 10px;
+    color: #ffffff94;
+    font-size: 16px;
 }
 #footer-icons{
     display: flex;
